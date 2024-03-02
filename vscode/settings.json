@@ -1,0 +1,17 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.colorTheme": "Quiet Light",
+    "editor.fontSize": 14,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.tabs.enabled": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "terminal.integrated.fontSize": 12,
+    "debug.console.fontSize": 12,
+    "editor.rulers": [
+        79,
+    ],
+}
