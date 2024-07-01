@@ -1,3 +1,7 @@
+# Shell prompt.
+PROMPT='%K{white}%F{black}%~$%f%k '
+
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
@@ -16,6 +20,10 @@ alias lsa="ls -alh"
 # --- Git aliases
 alias gits="git status"
 alias gd="git diff"
+alias gitlog="git log --oneline"
+
+# git diff, using difftastic
+alias gdd="git difftool"
 
 # gpo main, gpo dev_branch
 alias gpo="git push origin"
